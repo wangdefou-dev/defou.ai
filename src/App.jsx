@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import PainPoints from './components/PainPoints'
 import Services from './components/Services'
 import ServiceDetails from './components/ServiceDetails'
+import Solutions from './components/Solutions'
+import Cases from './components/Cases'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -99,6 +101,8 @@ export default function App() {
         <PainPoints />
         <Services />
         <ServiceDetails />
+        <Solutions />
+        <Cases />
         <Contact />
         <Footer />
       </div>

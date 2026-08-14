@@ -14,7 +14,7 @@ export default function Services() {
   const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true })
 
   return (
-    <section id="services" className="relative py-24 px-6" ref={ref}>
+    <section id="services" className="relative py-28 px-6" ref={ref}>
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

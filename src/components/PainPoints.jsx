@@ -38,7 +38,7 @@ export default function PainPoints() {
   const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true })
 
   return (
-    <section id="pain-points" className="relative py-24 px-6" ref={ref}>
+    <section id="pain-points" className="relative py-28 px-6" ref={ref}>
       <div className="absolute inset-0 dot-grid opacity-40" />
 
       <div className="relative max-w-5xl mx-auto">

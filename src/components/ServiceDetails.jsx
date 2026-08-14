@@ -49,13 +49,13 @@ export default function ServiceDetails() {
   const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true })
 
   return (
-    <section id="service-details" className="relative py-24 px-6" ref={ref}>
+    <section id="service-details" className="relative py-36 px-6" ref={ref}>
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-warm-white mb-5 tracking-tight">
             全链路<span className="text-primary">服务详情</span>
@@ -63,7 +63,7 @@ export default function ServiceDetails() {
           <p className="text-warm-gray text-lg">不是卖工具，而是帮你把 AI 真正用出业务价值</p>
         </motion.div>
 
-        <div className="space-y-5">
+        <div className="space-y-6">
           {services.map((svc, i) => {
             const Icon = svc.icon
             return (
