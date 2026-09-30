@@ -9,7 +9,7 @@ const cases = [
   { company: '珠海某街道办', tag: '惠民 AI 培训课' },
   { company: '某连锁汽修店', tag: '智能报价' },
   { company: '某连锁服装定制店', tag: '批量视频剪辑制作' },
-  { company: '某连锁按摩养生店', tag: '智能招聘Agent' },
+  { company: '某连锁保险公司澳门分公司', tag: '企业内部知识库' },
 ]
 
 export default function Cases() {
